@@ -72,6 +72,20 @@
             }
             Console.ReadLine();
             
+            int[] numbers = new int[10];
+            numbers[0]= 4;
+            numbers[1] = 8;
+            numbers[2] = 15;
+            numbers[3] = 4;
+            numbers[4] = 16;
+
+            Console.WriteLine(numbers[1]);
+
+            string zig = "You can get what you want out of life";
+            char[] charArray = zig.ToCharArray();
+            Array.Reverse(charArray);
+            foreach (char zigChar in charArray)
+                Console.WriteLine(zigChar);
         }
     }
 }
