@@ -51,14 +51,27 @@
             Console.ReadLine(); 
             */
 
-            Console.WriteLine("Bob's Big Giveaway");
-            Console.Write("Choose a door: 1, 2, or 3: ");
-            string userValue = Console.ReadLine();
+            //Console.WriteLine("Bob's Big Giveaway");
+            //Console.Write("Choose a door: 1, 2, or 3: ");
+            //string userValue = Console.ReadLine();
 
-            string message = (userValue =="1") ? "boat" : "strand of lint";
-            Console.Write("You won a ");
-            Console.Write(message);
+            //string message = (userValue =="1") ? "boat" : "strand of lint";
+            //Console.Write("You won a ");
+            //Console.Write(message);
+            //Console.ReadLine();
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                //Console.WriteLine(i);
+                if (i == 7)
+                {
+                    Console.WriteLine("Found seven!");
+                    break;
+                }
+            }
             Console.ReadLine();
+            
         }
     }
 }
